@@ -106,12 +106,12 @@ but also the metadata about each activity to enable its proper integration.
 While there are differences in collection methods, the data collected is fundamentally the same.
 The data collected typically includes the following for each `shot`:
 
-| Data Item                   | Mandatory | Description                                                 |
-|-----------------------------|-----------|-------------------------------------------------------------|
-| From Station                | Yes       | The station the shot is being measured from                 |
-| To Station                  | Yes       | The station the shot is being measured to                   |
-| Heading                     | Yes       | The compass heading from the from station to the to station |
-| Distance                    | Yes       | The distance between the from station and the to station    |
-| Depth                       | Yes       | The depth at the to station                                 |
-| Repeat Heading              | No        | A second compass heading taken at the end of the shot       |
-| Passage Measurements (LRUD) | No        | Measurements from the station to the passage walls          |
+| Data Item                   | Mandatory | Description                                                     |
+|-----------------------------|-----------|-----------------------------------------------------------------|
+| From-Station                | Yes       | The station the shot is being is being measured from            |
+| To-Station                  | Yes       | The station the shot is being measured to                       |
+| Heading                     | Yes       | The compass heading from the `from-station` to the `to-station` |
+| Distance                    | Yes       | The distance between the `from-station` and the `to-station`    |
+| Depth                       | Yes       | The depth at the `to-station`                                   |
+| Repeat Heading              | No        | A second compass heading taken at the end of the shot           |
+| Passage Measurements (LRUD) | No        | Measurements from the station to the passage walls              |
