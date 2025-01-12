@@ -1,7 +1,6 @@
 +++
 title = "Designing Ergonomic APIs in Rust"
 date = "2025-01-11"
-draft = true
 
 [taxonomies]
 tags=["Rust", "API Design", "Engineering"]
@@ -127,7 +126,7 @@ The specificity of the language does tend to awaken the perfectionist in many de
 - "I shouldn't need to write that boilerplate, I should be able to use a macro."
 - "I should be able to prevent that mistake from happening in the first place."
 
-This can result in a lot of revisiting code that works, but isn't quite perfect.
+This cycle can result in a lot of revisiting code that works, but isn't quite perfect.
 Many of the deficiencies described above are so subtle in other languages that even experienced developers might overlook them.
 In Rust, they're glaringly obvious.
 
