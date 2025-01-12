@@ -128,10 +128,10 @@ The specificity of the language does tend to awaken the perfectionist in many de
 - "I should be able to prevent that mistake from happening in the first place."
 
 This can result in a lot of revisiting code that works, but isn't quite perfect.
-Many of the examples above are so subtle in other languages that even experienced developers might not notice them.
+Many of the deficiencies described above are so subtle in other languages that even experienced developers might overlook them.
 In Rust, they're glaringly obvious.
 
-This is very much a double edged sword.
+This is a double edged sword, of course.
 - It's easy to get lost in the weeds of perfectionism
 - It's also Rust's superpower
 
@@ -149,7 +149,7 @@ Someone already found the rough edges that you were going to run into,
 and either fixed the issue themselves, or reported the issue to the authors who did.
 Sometimes fixing the issue was easy, and sometimes it was hard.
 Sometimes it required a major refactor, and sometimes it required building a whole other library.
-Sometimes it required working with the language team itself to introduce new language features or fix bugs.
+Sometimes it required working with the language team itself to fix bugs or introduce new language features.
 The unifying factor is that the authors were dedicated to making their code better,
 and the language gave them the tools to do so.
 Developers want to make their code better in every language.
