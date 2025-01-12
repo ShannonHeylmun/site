@@ -138,8 +138,8 @@ This is a double edged sword, of course.
 
 The API examples above weren't this good in their first release, or their second, or their tenth.
 Their authors made them work, and then they made them better.
-They are great examples of what can be accomplished with a lot of time, effort, and dedication.
 The crates that are incredible works of engineering today have stood the test of time.
+They are examples of what can be accomplished with a lot of time, effort, and dedication.
 They have fixed the papercuts reported by thousands of users.
 Issues that they never considered when writing their libraries have been reported and fixed.
 They have been polished to a mirror sheen and are a joy to use because
