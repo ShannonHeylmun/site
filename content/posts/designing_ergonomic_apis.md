@@ -35,7 +35,7 @@ I wrote some functions that were awkward to use and traits that resulted in a lo
 I've also been fortunate enough to have the opportunity to go back and address much of that technical debt.
 The results have been rather remarkable.
 
-By simply fixing the things that were obviously less than ideal, I've been able to make my code more correct, robust, and simple.
+Simply fixing the things that were obviously lacking, I've been able to make my code more correct, robust, and simple.
 I've arrived at a place where I have some pretty great ergonomics in some of the APIs I've built
 just by addressing issues that were obvious shortcuts, as well as areas that caused me to take shortcuts downstream.
 
@@ -105,7 +105,7 @@ The Rustaceans that really drive the ecosystem write an unbelievable ammount of 
 I've never understood quite how they do it.
 Having the opportunity to spend the time to really polish Rust code myself has given me some insight though.
 The key is to just keep fixing the things that are obviously wanting,
-and the language itself helps you do it.
+and the language itself helps guide you to something exceptional.
 
 ## What's Wrong?
 
@@ -153,7 +153,7 @@ Sometimes it required working with the language team itself to fix bugs or intro
 The unifying factor is that the authors were dedicated to making their code better,
 and the language gave them the tools to do so.
 Developers want to make their code better in every language.
-Rust isn't unique in that regard, but it is unique in how it helps developers to identify where and how to make their code better.
+Rust isn't unique in that regard, but it is unique in how it guides developers to identify where and how to make their code better.
 
 The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
