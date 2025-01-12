@@ -140,9 +140,9 @@ The API examples above weren't this good in their first release, or their second
 Their authors made them work, and then they made them better.
 The crates that are incredible works of engineering today have stood the test of time.
 They are examples of what can be accomplished with a lot of time, effort, and dedication.
-They have fixed the papercuts reported by thousands of users.
+The authors have fixed the papercuts reported by thousands of users.
 Issues that they never considered when writing their libraries have been reported and fixed.
-They have been polished to a mirror sheen and are a joy to use because
+These crates have been polished to a mirror sheen and are a joy to use because
 so many of the things that were obviously wanting in previous iterations have been addressed.
 Someone already found the rough edges that you were going to run into,
 and either fixed the issue themselves, or reported the issue to the authors who did.
@@ -158,4 +158,4 @@ The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
 It's because they've spent the time to address areas that were flawed over and over again.
 You don't have to be a world famous open source developer to write great code in Rust.
-You just have to be willing to fix the things that can obviously be improved until you've built something incredible.
+You just have to be willing to revisit the things that impel refinement until you've built something incredible.
