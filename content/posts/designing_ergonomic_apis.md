@@ -26,7 +26,7 @@ The code is so good in fact, that it's honestly pretty intimidating.
 I've spent the last several months building libraries in Rust,
 and I've come to appreciate the sum of the language's strengths for a reason I haven't seen discussed much:
 obvious correctness drives ergonomics.
-Because the language is so strict, it's easy to identify where you've taken shortcuts to get things working.
+Because the language is so strict, it's easy to identify where you've cut corners to get things working.
 Like just about everyone who's ever written code, I have taken shortcuts I regretted to make deliveries on time.
 I didn't always consider carefully whether functions should take references or values.
 I didn't always encode the invariants of my data structures in the type system.
