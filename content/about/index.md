@@ -38,10 +38,10 @@ I'm proud to say that there is still nothing quite like it in the industry.
 
 Since then, I founded and built the worlds first high-tech escape room, and have spent over a decade running my own consulting company.
 I've built mobile apps for the largest accounting software company in the US,
-built open source intelligent tutoring systems for the US government,
-and built embedded firmware, mobile apps, and backends for some of the largest companies in the world.
+open source intelligent tutoring systems for the US government,
+and embedded firmware, mobile apps, and backends for some of the largest companies in the world.
 
 ![Luminar Halo](halo.jpg)
 
-I've spent the last 6 years at Luminar Technologies,
+I've spent the last six years at Luminar Technologies,
 where I've had the opportunity to work on some of coolest optical systems and signal processing problems imaginable.
