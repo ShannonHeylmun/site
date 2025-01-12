@@ -55,7 +55,7 @@ On the other hand, Rust has a reputation for being difficult to learn and use,
 seemingly at odds with its popularity and veneration.
 It has a steep learning curve, a complex type system,
 and a focus on memory safety and performance that forces developers to worry about things they might not even consider in other languages.
-Frustratingly, you have to do all of those things before your code even compiles.
+Frustratingly, you have to consider and address all of those issues before your code will even compile.
 
 The ergonomics of libraries are a little different.
 An ergonomic library is one that is easy to use, easy to understand, and hard to misuse.
