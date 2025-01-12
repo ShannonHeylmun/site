@@ -36,7 +36,7 @@ I'm proud to say that there is still nothing quite like it in the industry.
 
 ![Prepar3D](prepar3d.jpg)
 
-Since then, I founded and built one of the worlds first high-tech escape rooms,
+Since then, I founded and built one of the world's first high-tech escape rooms,
 and have spent over a decade running my own consulting company.
 I've built mobile apps for the largest accounting software company in the US,
 open source intelligent tutoring systems for the US government,
