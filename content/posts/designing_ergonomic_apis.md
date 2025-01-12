@@ -136,23 +136,21 @@ This is a double edged sword, of course.
 
 ## Fixing the Obvious
 
-The API examples above weren't this good in their first release, or their second, or their tenth.
+The API examples above weren't this good in their first release.
 Their authors made them work, and then they made them better.
 The crates that are incredible works of engineering today have stood the test of time.
-They are examples of what can be accomplished with a lot of time, effort, and dedication.
 The authors have fixed the papercuts reported by thousands of users.
 Issues that they never considered when writing their libraries have been reported and fixed.
 These crates have been polished to a mirror sheen and are a joy to use because
-so many of the things that were obviously wanting in previous iterations have been addressed.
-Someone already found the rough edges that you were going to run into,
-and either fixed the issue themselves, or reported the issue to the authors who did.
+so many of the things that were imperfect in previous iterations have been addressed.
+
 Sometimes fixing the issue was easy, and sometimes it was hard.
 Sometimes it required a major refactor, and sometimes it required building a whole other library.
 Sometimes it required working with the language team itself to fix bugs or introduce new language features.
 The unifying factor is that the authors were dedicated to making their code better,
 and the language gave them the tools to do so.
 Developers want to make their code better in every language.
-Rust isn't unique in that regard, but it is unique in how it guides developers to identify where and how to make their code better.
+Rust certainly isn't unique in that regard, but it is unique in how it guides developers to identify where and how to improve.
 
 The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
