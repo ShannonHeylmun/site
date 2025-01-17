@@ -58,7 +58,6 @@ Frustratingly, you have to consider and address all of those issues before your 
 
 The ergonomics of libraries are a little different.
 An ergonomic library is one that is easy to use, easy to understand, and hard to misuse.
-It's easy to get started with, and it's pleasant to use as intended.
 Rust's strict but expressive type system allows for libraries that are both powerful and easy to use.
 Well designed libraries encode their invariants in the types and functions they expose,
 making it difficult to misuse them.
@@ -79,6 +78,7 @@ Struct MyComplexType{...
 
 Need to make a complicated  SQL query?
 [Diesel](https://diesel.rs") has you covered.
+
 ```rust
 let results =
       orders::table
@@ -92,7 +92,7 @@ let results =
       .limit(10)
       .load::<(String, i32)>(conn)?;
 ```
-**Whoa**, that's a big, complex expression that just does exactly what I want.
+**Whoa**, that's a big, complex expression that says and does exactly what I want.
 
 There are so many incredible examples of great API design in the Rust ecosystem.
 Rust's standard library is the only standard library that I've ever used that I would describe as both
@@ -156,4 +156,4 @@ The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
 It's because they've spent the time to address areas that were flawed over and over again.
 You don't have to be a world famous open source developer to write great code in Rust.
-You just have to be willing to revisit the things that impel refinement until you've built something incredible.
+You just have to be willing to address the issues that impel refinement until you've built something incredible.
