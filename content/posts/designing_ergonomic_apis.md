@@ -100,7 +100,7 @@ extremely clever and easily readable.
 Clever code tends to be dense and opaque,
 but Rust's standard library is ingenious because its abstractions are so simple and powerful.
 
-The Rustaceans that really drive the ecosystem write an unbelievable ammount of code of incredibly high quality code.
+The Rustaceans who drive the ecosystem write an unbelievable amount of incredibly high-quality code.
 I've never understood quite how they do it.
 Having the opportunity to spend the time to really polish Rust code myself has given me some insight though.
 The key is to just keep fixing the things that are obviously wanting,
@@ -120,13 +120,13 @@ The compiler catches cases where you've made a mistake or missed something that 
 The result is that once a major refactor compiles again, the code probably works as intended.
 The compiler is very particular, but it has your back, and it's a great feeling.
 
-The specificity of the language does tend to awaken the perfectionist in many developers:
+The specificity of the language does tend to awaken the perfectionist in its developers:
 - "I shouldn't need to clone that here, I should be able to pass a reference."
 - "I shouldn't need to unwrap that here, I should be able to handle the error."
 - "I shouldn't need to write that boilerplate, I should be able to use a macro."
 - "I should be able to prevent that mistake from happening in the first place."
 
-This cycle can result in a lot of revisiting code that works, but isn't quite perfect.
+This cycle can result in a lot of revisiting code that works but isn't quite perfect.
 Many of the deficiencies described above are so subtle in other languages that even experienced developers might overlook them.
 In Rust, they're glaringly obvious.
 
@@ -150,7 +150,7 @@ Sometimes it required working with the language team itself to fix bugs or intro
 The unifying factor is that the authors were dedicated to making their code better,
 and the language gave them the tools to do so.
 Developers want to make their code better in every language.
-Rust certainly isn't unique in that regard, but it is unique in how it guides developers to identify where and how to improve.
+Rust is unique in how it helps developers to identify where and how to improve.
 
 The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
