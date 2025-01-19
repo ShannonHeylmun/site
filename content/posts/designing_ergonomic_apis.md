@@ -17,7 +17,6 @@ Crates like [Chrono](https://github.com/chronotope/chrono), [Tokio](https://toki
 well-documented, and well-maintained.
 This isn't to suggest that other languages don't have great ecosystems,
 but the quality of core crates in the Rust ecosystem is just on another level.
-They're not just good, they're great.
 They have a level of correctness, robustness, and attention to detail that is hard to find in any other language.
 Moreover, there are a *lot* of examples of really incredible open source projects written in Rust.
 I've been blown away by the quality of the crates I've used in Rust since I started working in the language.
