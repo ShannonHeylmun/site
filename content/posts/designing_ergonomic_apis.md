@@ -10,7 +10,7 @@ tags=["Rust", "API Design", "Engineering"]
 [Rust](https://rustlang.org) is a [great programming language](https://survey.stackoverflow.co/2024/technology#admired-and-desired).
 It has a strong type system, memory safety, concurrency as a first class feature, a powerful macro system,
 and a focus on developer productivity, in addition to being one of the fastest languages out there.
-All of those attributes have been covered by too many blogs, articles, and talks to count.
+All of those virtues have been covered by too many blogs, articles, and talks to count.
 The ecosystem of crates is growing rapidly,
 but many of the foundational crates are of a quality that is hard to find in other languages.
 Crates like [Chrono](https://github.com/chronotope/chrono), [Tokio](https://tokio.rs), and [Hyper](https://hyper.rs) are well-designed,
@@ -19,11 +19,10 @@ This isn't to suggest that other languages don't have great ecosystems,
 but the quality of core crates in the Rust ecosystem is just on another level.
 They have a level of correctness, robustness, and attention to detail that is hard to find in any other language.
 Moreover, there are a *lot* of examples of really incredible open source projects written in Rust.
-I've been blown away by the quality of the crates I've used in Rust since I started working in the language.
 The code is so good in fact, that it's honestly pretty intimidating.
 
 I've spent the last several months building libraries in Rust,
-and I've come to appreciate the sum of the language's strengths for a reason I haven't seen discussed much:
+and I've come to appreciate the sum of the language's features for a reason I haven't seen discussed much:
 obvious correctness drives ergonomics.
 Because the language is so strict, it's easy to identify where you've cut corners to get things working.
 Like just about everyone who's ever written code, I have taken shortcuts I regretted to make deliveries on time.
@@ -33,9 +32,8 @@ I wrote some functions that were awkward to use and traits that resulted in a lo
 I've also been fortunate enough to have the opportunity to go back and address much of that technical debt.
 The results have been rather remarkable.
 
-Simply fixing the things that were obviously lacking, I've been able to make my code more correct, robust, and simple.
-I've arrived at a place where I have some pretty great ergonomics in some of the APIs I've built
-just by addressing issues that were obvious shortcuts, as well as areas that caused me to take shortcuts downstream.
+By revising code that was obviously lacking, I have been able to make my code more simple, correct, and robust.
+The ergonomics of the APIs I've built have become far better than I envisioned when I began writing them because Rust made it easy to find and fix the hacks.
 
 ## What are Ergonomics?
 
@@ -93,17 +91,15 @@ let results =
 ```
 **Whoa**, that's a big, complex expression that says and does exactly what I want.
 
-There are so many incredible examples of great API design in the Rust ecosystem.
+There are far too many examples of incredible API design in the Rust ecosystem to include here. I highly recommend checking out the growing list of community recommended crates at [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) and [blessed.rs](https://blessed.rs/crates).
 Rust's standard library is the only standard library that I've ever used that I would describe as both
 extremely clever and easily readable.
 Clever code tends to be dense and opaque,
 but Rust's standard library is ingenious because its abstractions are so simple and powerful.
 
 The Rustaceans who drive the ecosystem write an unbelievable amount of incredibly high-quality code.
-I've never understood quite how they do it.
-Having the opportunity to spend the time to really polish Rust code myself has given me some insight though.
-The key is to just keep fixing the things that are obviously wanting,
-and the language itself helps guide you to something exceptional.
+I never understood quite how they did it until I spent some time refactoring my own Rust APIs.
+What stands out to me is the convenience and pedagogy inherent to the language itself. The key is to just keep fixing the things that are imperfect, and Rust will practically mentor you to something exceptional.
 
 ## What's Wrong?
 
@@ -135,21 +131,21 @@ This is a double edged sword, of course.
 
 ## Fixing the Obvious
 
-The API examples above weren't this good in their first release.
+The crates I mention here weren't this good in their first release.
 Their authors made them work, and then they made them better.
 The crates that are incredible works of engineering today have stood the test of time.
 The authors have fixed the papercuts reported by thousands of users.
-Issues that they never considered when writing their libraries have been reported and fixed.
+Issues they might never have considered when writing their libraries have been reported and remediated.
 These crates have been polished to a mirror sheen and are a joy to use because
 so many of the things that were imperfect in previous iterations have been addressed.
 
 Sometimes fixing the issue was easy, and sometimes it was hard.
-Sometimes it required a major refactor, and sometimes it required building a whole other library.
+Sometimes it required a major refactor, and sometimes it required building a whole separate library.
 Sometimes it required working with the language team itself to fix bugs or introduce new language features.
 The unifying factor is that the authors were dedicated to making their code better,
 and the language gave them the tools to do so.
 Developers want to make their code better in every language.
-Rust is unique in how it helps developers to identify where and how to improve.
+Rust is unique in how it helps developers to discover where and how to improve.
 
 The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
