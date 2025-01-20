@@ -39,7 +39,7 @@ The ergonomics of the APIs I've built have become far better than I envisioned w
 
 The ergonomics of a programming language are the features that make it easy to write code.
 Go, Python, and Ruby are known for their ergonomics.
-They have a simple syntax, powerful standard libraries, and a focus on developer productivity.
+They have simple syntaxes, powerful standard libraries, and a focus on developer productivity.
 Unfortunately, their ergonomics come at the cost of making it easy to introduce runtime errors
 and structural issues that can be difficult to debug.
 It's easy to develop functionality quickly in those languages,
@@ -53,11 +53,11 @@ It has a steep learning curve, a complex type system,
 and a focus on memory safety and performance that forces developers to worry about things they might not even consider in other languages.
 Frustratingly, you have to consider and address all of those issues before your code will even compile.
 
-The ergonomics of libraries are a little different.
-An ergonomic library is one that is easy to use, easy to understand, and hard to misuse.
+In the context of libraries, "ergonomics" means something a little different.
+An ergonomic library is one that is easy to use, hard to misuse, easy to understand.
 Rust's strict but expressive type system allows for libraries that are both powerful and easy to use.
 Well designed libraries encode their invariants in the types and functions they expose,
-making it difficult to misuse them.
+making it difficult to invoke them incorrectly.
 Thoughtful traits and macros can give users lots of power with minimal boilerplate.
 
 ## Ergonomics in Rust
@@ -95,7 +95,7 @@ There are far too many examples of incredible API design in the Rust ecosystem t
 Rust's standard library is the only standard library that I've ever used that I would describe as both
 extremely clever and easily readable.
 Clever code tends to be dense and opaque,
-but Rust's standard library is ingenious because its abstractions are so simple and powerful.
+but Rust's standard library is ingenious because its abstractions are so simple yet powerful.
 
 The Rustaceans who drive the ecosystem write an unbelievable amount of incredibly high-quality code.
 I never understood quite how they did it until I spent some time refactoring my own Rust APIs.
@@ -121,13 +121,12 @@ The specificity of the language does tend to awaken the perfectionist in its dev
 - "I shouldn't need to write that boilerplate, I should be able to use a macro."
 - "I should be able to prevent that mistake from happening in the first place."
 
-This cycle can result in a lot of revisiting code that works but isn't quite perfect.
+This cycle can result in revisiting a lot of code that works but isn't quite perfect.
 Many of the deficiencies described above are so subtle in other languages that even experienced developers might overlook them.
 In Rust, they're glaringly obvious.
 
-This is a double edged sword, of course.
-- It's easy to get lost in the weeds of perfectionism
-- It's also Rust's superpower
+It's easy to get lost in the weeds of perfectionism, but it's also Rust's superpower.
+
 
 ## Fixing the Obvious
 
@@ -149,6 +148,6 @@ Rust is unique in how it helps developers to discover where and how to improve.
 
 The result is that many crates in the Rust ecosystem are a joy to use.
 It's not just because the authors are genius programmers (many of them are).
-It's because they've spent the time to address areas that were flawed over and over again.
-You don't have to be a world famous open source developer to write great code in Rust.
+It's because they've put in the time to address flaws over and over again.
+You don't have to be a famous open source developer to write great code in Rust.
 You just have to be willing to address the issues that impel refinement until you've built something incredible.
