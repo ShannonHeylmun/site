@@ -30,7 +30,7 @@ I've always been fascinated by how things work and how to make them better.
 I've been fortunate to have the opportunity to work on a wide variety of projects in my career.
 
 I started my career at one of the world's largest aerospace companies,
-where I was lucky enough to work on one of the first DirectX 11 rendering engines ever released.
+where I worked on one of the first DirectX 11 rendering engines ever released.
 I had the opportunity to work on a tiny, dedicated team to build a brand new rendering engine for Microsoft Flight Simulator.
 I'm proud to say that there is still nothing quite like it in the industry.
 
@@ -45,4 +45,4 @@ and embedded firmware, mobile apps, and backends for some of the largest compani
 ![Luminar Halo](halo.jpg)
 
 I've spent the last six years at Luminar Technologies,
-where I've had the opportunity to work on some of coolest optical systems and signal processing problems imaginable.
+where I've worked on some of the coolest optical systems and signal processing problems imaginable.
