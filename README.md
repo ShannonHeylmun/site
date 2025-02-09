@@ -1,6 +1,6 @@
 # Readme for Zachary Heylmun's blog
 
-[Built with Zola](https://www.getzola.org) using the [Apollo theme](https://www.getzola.org/themes/apollo/)
+This project was built with [Zola](https://www.getzola.org) using the [Apollo](https://www.getzola.org/themes/apollo/) [theme](https://www.getzola.org/themes/).
 
 ## Run
 
