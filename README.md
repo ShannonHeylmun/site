@@ -1,10 +1,8 @@
 # Readme for Zachary Heylmun's blog
 
-[Built with Zola](https://www.getzola.org)
+[Built with Zola](https://www.getzola.org) using the [Apollo theme](https://www.getzola.org/themes/apollo/)
 
-## Please steal this
-
-Feel free to fork this and populate the project with your own content and theme.
+## Run
 
 First [install Zola](https://www.getzola.org/documentation/getting-started/installation/).
 
