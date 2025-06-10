@@ -1,6 +1,6 @@
-title = "Zach Heylmun"
+title = "Shannon Heylmun"
 # The URL the site will be built for
-base_url = "https://zheylmun.github.io/site/"
+base_url = "https://github.com/ShannonHeylmun/blog/"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
@@ -18,19 +18,19 @@ highlight_code = true
 # Put all your custom variables here
 theme = "toggle"
 socials = [
-    { name = "GitHub", url = "https://github.com/zheylmun", icon = "github" },
-    # Configure socials here
+	{ name = "GitHub", url = "https://github.com/ShannonHeylmun", icon = "github" },
+	# Configure socials here
 ]
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/tags", url = "/tags", weight = 2 },
-    { name = "/projects", url = "/projects", weight = 3 },
-    { name = "/about", url = "/about", weight = 4 },
-    # Configure menu bar here
+	{ name = "/posts", url = "/posts", weight = 1 },
+	{ name = "/tags", url = "/tags", weight = 2 },
+	{ name = "/projects", url = "/projects", weight = 3 },
+	{ name = "/about", url = "/about", weight = 4 },
+	# Configure menu bar here
 ]
 
 [extra.analytics]
 enable = true
 # See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
 [extra.analytics.goatcounter]
-user = "zheylmun"
+user = "ShannonHeylmun"
